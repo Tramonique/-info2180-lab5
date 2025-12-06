@@ -41,7 +41,7 @@ if ($lookup === 'cities') {
     </table>
 
     <?php
-    exit; // stop here so the country table does NOT print
+    exit; 
 }
 
 $sql = "SELECT * FROM countries WHERE name LIKE '%$country%'";
